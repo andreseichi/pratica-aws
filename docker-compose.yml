@@ -14,7 +14,7 @@ services:
     container_name: node_students
     build: .
     ports:
-      - 5000:5000
+      - 80:5000
     depends_on:
       - db_postgres_students
     env_file:
